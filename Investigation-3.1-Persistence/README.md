@@ -27,7 +27,7 @@ Investigate the Sysmon logs to determine how persistence was established, identi
 
 The investigation began by loading the provided **Investigation-3.1.evtx** file into **Windows Event Viewer**. Review of the available Sysmon events identified suspicious **Process Creation (Event ID 1)**, **Registry Value Set (Event ID 13)** and **Network Connection (Event ID 3)** events occurring in sequence, indicating that the attacker established persistence before initiating communication with a remote host.
 
-**Screenshot 2026-07-29 at 16.10.16 here**
+**Screenshot 2026-07-29 **
 
 *Investigation overview showing the available Sysmon events.*
 
@@ -41,7 +41,7 @@ Analysis showed **powershell.exe** executing commands associated with the persis
 
 The execution timeline showed PowerShell launching immediately before the registry modification and outbound network communication.
 
-**Screenshot 2026-07-29 at 16.10.21 here**
+**Screenshot 2026-07-29 here**
 
 *Event ID 1 showing PowerShell execution.*
 
@@ -57,7 +57,7 @@ The investigation revealed **powershell.exe** modifying the following registry l
 
 Registry modifications within this location indicate that the attacker attempted to establish persistence, enabling malicious code to remain active after system reboots or future user sessions.
 
-**Screenshot 2026-07-29 at 16.10.26 here**
+**Screenshot 2026-07-29  here**
 
 *Event ID 13 showing the registry modification performed by PowerShell.*
 
@@ -76,7 +76,7 @@ The investigation identified:
 
 The communication occurred immediately after the registry modification, suggesting the attacker successfully established persistence before communicating with the Empire Command-and-Control server.
 
-**Screenshot 2026-07-29 at 16.10.30 here**
+**Screenshot 2026-07-29  here**
 
 *Event ID 3 showing the outbound connection to the suspected adversary.*
 
