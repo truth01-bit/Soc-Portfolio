@@ -2,7 +2,7 @@
 
 ---
 
-# Investigation 3 – Web Shell Alert
+# Investigation 3 – Web Shell Alerts
 
 ## Executive Summary
 
