@@ -162,14 +162,7 @@ Although the investigation was performed within a controlled lab environment, th
 
 ---
 
-# Recommendations
 
-- Remove unauthorized user accounts immediately.
-- Investigate all account management events for suspicious activity.
-- Enable PowerShell Script Block Logging and Module Logging.
-- Monitor Windows Event IDs 4688, 4720, 4726, and PowerShell Operational logs.
-- Alert on suspicious usage of `net user`, `wmic`, and PowerShell.
-- Review registry modifications associated with newly created accounts.
 
 ---
 
