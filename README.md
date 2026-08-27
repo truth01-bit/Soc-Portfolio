@@ -2,29 +2,31 @@
 
 Hands-on SOC investigations focused on phishing analysis, SIEM alert triage, endpoint security, network forensics, threat hunting, and incident response.
 
-This portfolio currently contains **14 documented investigations** completed across Splunk, Elastic, Sysmon, PowerShell, Wireshark, TShark, Brim, Zeek, and Suricata.
+This portfolio currently contains **15 documented investigations** completed across Splunk, Elastic, Sysmon, PowerShell, Wireshark, TShark, Brim, Zeek, and Suricata.
 
-## Featured Investigations (5)
+## Featured Investigations (6)
 
 These projects represent my most complete and detailed incident investigations.
+1. [Windows Memory Forensics — Banking Trojan and WannaCry Investigation](Windows-Memory-Forensics-Malware-Investigation/)
+ 
+   * Memory-forensics investigation using Volatility 3 to analyze suspicious processes, banking-related artifacts, and WannaCry ransomware indicators.
 
-1. [Phishing-Led Endpoint Compromise and DNS Exfiltration](Phishing-to-Data-Exfiltration-Investigation/)
-
+2. [Phishing-Led Endpoint Compromise and DNS Exfiltration](Phishing-to-Data-Exfiltration-Investigation/)
    * Investigation of a phishing attachment, malicious LNK execution, PowerShell C2, credential discovery, KeePass collection, and DNS exfiltration.
 
-2. [Malicious Document and Full Windows Compromise](Malicious-Document-Incident-Investigation/)
+3. [Malicious Document and Full Windows Compromise](Malicious-Document-Incident-Investigation/)
 
    * Complete Windows attack-chain investigation covering malicious document execution, persistence, HTTP C2, credential discovery, reverse tunnelling, privilege escalation, and SYSTEM-level compromise.
 
-3. [Malicious Network Traffic Investigation with Brim](Brim-Malicious-Traffic-Investigation/)
+4. [Malicious Network Traffic Investigation with Brim](Brim-Malicious-Traffic-Investigation/)
 
    * Analysis of multiple malware infections using Zeek logs, Suricata alerts, DNS and HTTP traffic, file extraction, and threat-intelligence enrichment.
 
-4. [Elastic Alert Triage and Windows Compromise](Elastic-Alert-Triage-Investigation/)
+5. [Elastic Alert Triage and Windows Compromise](Elastic-Alert-Triage-Investigation/)
 
    * Investigation of ProxyLogon activity, web-shell execution, unauthorized access, account creation, privileged-group changes, PowerShell execution, and archive staging.
 
-5. [Elastic C2 Communication Investigation](Elastic-C2-Communication-Investigation/)
+6. [Elastic C2 Communication Investigation](Elastic-C2-Communication-Investigation/)
 
    * Investigation of suspicious BITSAdmin activity, Pastebin communication, payload retrieval, and potential Command and Control behavior using Elastic.
 
