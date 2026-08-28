@@ -2,31 +2,34 @@
 
 Hands-on SOC investigations focused on phishing analysis, SIEM alert triage, endpoint security, network forensics, threat hunting, and incident response.
 
-This portfolio currently contains **15 documented investigations** completed across Splunk, Elastic, Sysmon, PowerShell, Wireshark, TShark, Brim, Zeek, and Suricata.
+This portfolio currently contains **16 documented investigations** completed across Splunk, Elastic, Sysmon, PowerShell, Wireshark, TShark, Brim, Zeek, and Suricata.
 
-## Featured Investigations (6)
+## Featured Investigations (7)
 
 These projects represent my most complete and detailed incident investigations.
-1. [Windows Memory Forensics — Banking Trojan and WannaCry Investigation](Windows-Memory-Forensics-Malware-Investigation/)
+1. [Phishing-to-C2 Incident Investigation](Phishing-to-C2-Incident-Investigation/)
+   * Multi-stage phishing investigation involving a malicious Word macro, JavaScript execution, memory forensics, C2 communication, and scheduled-task persistence.
+
+2. [Windows Memory Forensics — Banking Trojan and WannaCry Investigation](Windows-Memory-Forensics-Malware-Investigation/)
  
    * Memory-forensics investigation using Volatility 3 to analyze suspicious processes, banking-related artifacts, and WannaCry ransomware indicators.
 
-2. [Phishing-Led Endpoint Compromise and DNS Exfiltration](Phishing-to-Data-Exfiltration-Investigation/)
+3. [Phishing-Led Endpoint Compromise and DNS Exfiltration](Phishing-to-Data-Exfiltration-Investigation/)
    * Investigation of a phishing attachment, malicious LNK execution, PowerShell C2, credential discovery, KeePass collection, and DNS exfiltration.
 
-3. [Malicious Document and Full Windows Compromise](Malicious-Document-Incident-Investigation/)
+4. [Malicious Document and Full Windows Compromise](Malicious-Document-Incident-Investigation/)
 
    * Complete Windows attack-chain investigation covering malicious document execution, persistence, HTTP C2, credential discovery, reverse tunnelling, privilege escalation, and SYSTEM-level compromise.
 
-4. [Malicious Network Traffic Investigation with Brim](Brim-Malicious-Traffic-Investigation/)
+5. [Malicious Network Traffic Investigation with Brim](Brim-Malicious-Traffic-Investigation/)
 
    * Analysis of multiple malware infections using Zeek logs, Suricata alerts, DNS and HTTP traffic, file extraction, and threat-intelligence enrichment.
 
-5. [Elastic Alert Triage and Windows Compromise](Elastic-Alert-Triage-Investigation/)
+6. [Elastic Alert Triage and Windows Compromise](Elastic-Alert-Triage-Investigation/)
 
    * Investigation of ProxyLogon activity, web-shell execution, unauthorized access, account creation, privileged-group changes, PowerShell execution, and archive staging.
 
-6. [Elastic C2 Communication Investigation](Elastic-C2-Communication-Investigation/)
+7. [Elastic C2 Communication Investigation](Elastic-C2-Communication-Investigation/)
 
    * Investigation of suspicious BITSAdmin activity, Pastebin communication, payload retrieval, and potential Command and Control behavior using Elastic.
 
